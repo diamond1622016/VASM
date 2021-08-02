@@ -1,0 +1,226 @@
+﻿@using System.Web.Mvc
+@using BELibrary.Entity
+@model Scientist
+
+
+@using ScientistVA.Handler
+@{
+    var client = CookiesManage.GetUser();
+}
+
+@{
+    ViewBag.Title = ViewBag.Feature + " " + ViewBag.Element;
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+    //var dateOfBirth = Model != null ? Model.DateOfBirth.ToString("yyyy-MM-dd") : DateTime.Now.AddYears(-18).ToString("yyyy-MM-dd");
+    //var gender = (Model != null) ? Model.Gender : true;
+}
+@section CSS{
+    <style>
+        div.b {
+            word-wrap: break-word;
+        }
+    </style>
+}
+
+<div id="page-content">
+
+    <div class="panel">
+        <div class="panel-body">
+            <div class="fixed-fluid">
+                <div class="fixed-md-200 pull-sm-left fixed-right-border">
+
+                    <!-- Simple profile -->
+                    <div class="text-center">
+                        <div class="pad-ver">
+                            <img src=@Model.Url_picture class="img-lg img-circle" alt="Profile Picture">
+                        </div>
+                        <h4 class="text-lg text-overflow mar-no">@Model.Name</h4>
+                        <p class="text-sm text-muted">@Model.Academic_pos</p>
+
+                        <div class="pad-ver btn-groups">
+                            <a href="#" class="btn btn-icon demo-pli-facebook icon-lg add-tooltip" data-original-title="Facebook" data-container="body"></a>
+                            <a href="#" class="btn btn-icon demo-pli-twitter icon-lg add-tooltip" data-original-title="Twitter" data-container="body"></a>
+                            <a href="#" class="btn btn-icon demo-pli-google-plus icon-lg add-tooltip" data-original-title="Google+" data-container="body"></a>
+                            <a href="#" class="btn btn-icon demo-pli-instagram icon-lg add-tooltip" data-original-title="Instagram" data-container="body"></a>
+                        </div>
+
+                        <button class="btn btn-block btn-success btn-sm" onclick="location.href='https://scholar.google.com/citations?user=@Model.Scholar_id&hl=en&oi=sra'">Google Scholar</button>
+                    </div>
+                    <hr>
+
+                    <!-- Profile Details -->
+                    <p class="pad-ver text-main text-sm text-uppercase text-bold">About Me</p>
+                    <p><i class="demo-pli-map-marker-2 icon-lg icon-fw"></i> @(Model.Nationality!= null? Model.Nationality: "Viet Nam")</p>
+                    <div class="b"> <p><a href="@(Model.Personal_web_link!=null? Model.Personal_web_link : "abc.com")" class="btn-link"><i class="demo-pli-internet icon-lg icon-fw"></i> @(Model.Personal_web_link != null? Model.Personal_web_link : "abc.com")</a></p></div>
+                    @*<p><a href="#" class="btn-link"><i class="demo-pli-internet icon-lg icon-fw"></i> @(Model.Personal_web_link!=null? Model.Personal_web_link : "abc.com")</a></p>*@
+                    <p><i class="demo-pli-old-telephone icon-lg icon-fw"></i>(123) 456 1234</p>
+
+
+                    <hr>
+                    <p class="pad-ver text-main text-sm text-uppercase text-bold">Interests</p>
+                    <ul class="list-inline">
+
+                        <p class="text-sm text-center">@Model.Interests</p>
+                    </ul>
+                    <hr>
+                    <p class="pad-ver text-main text-sm text-uppercase text-bold">Skills</p>
+                    <ul class="list-inline">
+                        <li class="tag tag-sm">PHP Programming</li>
+                        <li class="tag tag-sm">Marketing</li>
+                        <li class="tag tag-sm">Graphic Design</li>
+                        <li class="tag tag-sm">Sketch</li>
+                        <li class="tag tag-sm">Photography</li>
+                    </ul>
+
+                    <hr>
+                </div>
+                <div class="fluid">
+                    <div class="text-right">
+                        @if (client != null && client.ScientistId == Model.Id)
+                        {
+                            <a href="/scientist/update?id=@Model.Id" class="btn btn-sm btn-primary">Edit profile</a>
+                        }
+                        <button onclick="window.history.back();" class="btn btn-sm btn-primary"><i class="demo-pli-arrow-left-2"></i> Back</button>
+                    </div>
+
+                    <div class="pad-btm">
+                        <div class="comment-header">
+                            <p class="text-normal text-bold"><i class="demo-pli-file-edit icon-lg"></i> Bio sketch:</p>
+                        </div>
+                        <textarea disabled class="form-control" rows="12" placeholder="Bio_sketch"> @Html.Raw(@Model.Bio_sketch)</textarea>
+                        @*<div class="mar-top clearfix">
+                                <button class="btn btn-sm btn-primary pull-right" type="submit"><i class="demo-psi-right-4 icon-fw"></i> Share</button>
+                                <a class="btn btn-icon demo-pli-video icon-lg add-tooltip" href="#" data-original-title="Add Video" data-toggle="tooltip"></a>
+                                <a class="btn btn-icon demo-pli-camera-2 icon-lg add-tooltip" href="#" data-original-title="Add Photo" data-toggle="tooltip"></a>
+                                <a class="btn btn-icon demo-pli-file icon-lg add-tooltip" href="#" data-original-title="Add File" data-toggle="tooltip"></a>
+                            </div>*@
+                    </div>
+
+                    <hr>
+
+
+                    <!-- Newsfeed Content -->
+                    <!--===================================================-->
+                    <!--===================================================-->
+                    <!-- End Newsfeed Content -->
+                    <!-- Newsfeed Content -->
+                    <!--===================================================-->
+                    <div class="comments media-block">
+                        <div class="comment-header">
+                            <p class="text-normal text-bold"><i class="demo-pli-monitor-2 icon-lg"></i> AI-related working plans for next 3-5 years:</p>
+                        </div>
+                        <blockquote class="text-muted text-sm">
+                            @Html.Raw(@Model.Working_plan)
+                       </blockquote >
+
+                        </div >
+
+                        <!--=================================================== -->
+
+                        <!--End Newsfeed Content-- >
+                        <!--Newsfeed Content-- >
+
+                        <!--=================================================== -->
+
+                        <div class="comments media-block">
+                       <div class="comment-header">
+                           <p class="text-normal text-bold"><i class="demo-pli-monitor-2 icon-lg"></i> Topics interested in AI:</p>
+                       </div>
+                       <blockquote class="text-muted text-sm">
+                           @Html.Raw(@Model.Interested_topics)
+                      </blockquote >
+
+                       </div >
+
+                       <!--=================================================== -->
+
+                       <!--End Newsfeed Content-- >
+
+                       <!--Newsfeed Content-- >
+
+                       <!--=================================================== -->
+
+                        <div class="comments media-block">
+                            <div class="comment-header">
+                                <p class="text-normal text-bold"><i class="demo-pli-monitor-2 icon-lg"></i> Selected AI Publications:</p>
+                            </div>
+                            <div class="text-right">
+                                <a href="/scientist/getAllPapers?id=@Model.Id" class="btn btn-sm btn-primary">View All Publications</a>
+                                
+                            </div>
+                            <blockquote class="text-muted text-sm">
+                                @Html.Raw(Model.PaperList)
+                            </blockquote>
+                            @*<table id="demo-dt-basic" class="table table-striped table-bordered dataTable no-footer dtr-inline" cellspacing="0" width="100%" role="grid" aria-describedby="demo-dt-basic_info" style="width: 100%;">
+            <thead>
+                <tr role="row">
+                    <th class="sorting_asc" tabindex="0" aria-controls="demo-dt-basic" rowspan="1" colspan="1" style="width: 420px;" aria-sort="ascending" aria-label="Title">Title</th>
+                    <th class="sorting_asc" tabindex="0" aria-controls="demo-dt-basic" rowspan="1" colspan="1" style="width: 272px;" aria-sort="ascending" aria-label="Title">Authors</th>
+                    <th class="sorting" tabindex="0" aria-controls="demo-dt-basic" rowspan="1" colspan="1" style="width: 100px;" aria-label="">Cited by</th>
+                    <th class="min-tablet sorting" tabindex="0" aria-controls="demo-dt-basic" rowspan="1" colspan="1" style="width: 100px;" aria-label="Year">Year</th>
+                    <th class="min-tablet sorting" tabindex="0" aria-controls="demo-dt-basic" rowspan="1" colspan="1" style="width: 155px;" aria-label="Yournal">Journal</th>
+                    <th class="min-desktop sorting" tabindex="0" aria-controls="demo-dt-basic" rowspan="1" colspan="1" style="width: 50px;" aria-label="Link">Link</th>
+            </thead>
+            <tbody>
+                <tr role="row" class="odd">
+                    <td tabindex="0" class="sorting_1">Disturbances in influence of a shepherding agent is more impactful than sensorial noise during swarm guidance</td>
+                    <td>HT Nguyen, M Garratt, LT Bui, H Abbass</td>
+                    <td>10</td>
+                    <td>2020</td>
+                    <td>IEEE</td>
+                    <td><a href="https://ieeexplore.ieee.org/abstract/document/9308448"> Detail </a></td>
+
+                </tr>
+                <tr role="row" class="even">
+                    <td tabindex="0" class="sorting_1">A multifactorial optimization paradigm for linkage tree genetic algorithm</td>
+                    <td>TTB Huynh, DT Pham, BT Tran, CT Le, MHP Le, A Swami, TL Bui</td>
+                    <td>3</td>
+                    <td>2020</td>
+                    <td>Science Direct</td>
+                    <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0020025520305570"> Detail </a></td>
+                </tr>
+                <tr role="row" class="odd">
+                    <td tabindex="0" class="sorting_1">Disturbances in influence of a shepherding agent is more impactful than sensorial noise during swarm guidance</td>
+                    <td>HT Nguyen, M Garratt, LT Bui, H Abbass</td>
+                    <td>10</td>
+                    <td>2020</td>
+                    <td>IEEE</td>
+                    <td><a href="https://ieeexplore.ieee.org/abstract/document/9308448"> Detail </a></td>
+
+                </tr>
+                <tr role="row" class="even">
+                    <td tabindex="0" class="sorting_1">A multifactorial optimization paradigm for linkage tree genetic algorithm</td>
+                    <td>TTB Huynh, DT Pham, BT Tran, CT Le, MHP Le, A Swami, TL Bui</td>
+                    <td>3</td>
+                    <td>2020</td>
+                    <td>Science Direct</td>
+                    <td><a href="https://www.sciencedirect.com/science/article/abs/pii/S0020025520305570"> Detail </a></td>
+                </tr>
+
+            </tbody>
+        </table>*@
+                        </div>
+<!--===================================================-->
+<!-- End Newsfeed Content -->
+<!-- Newsfeed Content -->
+<!--===================================================-->
+                        @* <div class="comments media-block">
+        <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="img/profile-photos/8.png"></a>
+        <div class="media-body">
+            <div class="text-right">
+                <a class="btn btn-sm btn-default"><i class="icon-lg demo-pli-like"></i> Like </a>
+                <a class="btn btn-sm btn-default"><i class="icon-lg demo-pli-heart-2"></i> Love</a>
+                <a class="btn btn-sm btn-purple"><i class="icon-lg demo-pli-speech-bubble-5"></i> Message</a>
+            </div>
+        </div>
+    </div>*@
+<!--===================================================-->
+<!-- End Newsfeed Content -->
+                        @* <button class="btn btn-primary btn-block mar-ver">Load More</button>*@
+</div>
+            </div>
+        </div>
+    </div>
+
+</div>
+

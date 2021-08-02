@@ -1,0 +1,123 @@
+﻿@using BELibrary.Entity
+@using BELibrary.Utils
+@model List<Organization>
+@{ ViewBag.Title = "All AI Organization";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml"; }
+@section CSS{
+    <!--DataTables [ OPTIONAL ]-->
+    <link href="/Areas/Admin/Content/plugins/datatables/media/css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="/Areas/Admin/Content/plugins/datatables/extensions/Responsive/css/responsive.dataTables.min.css" rel="stylesheet">
+}
+
+<!--List-->
+<div class="panel">
+    <div class="panel-body">
+        <div class="pad-btm form-inline">
+            <div class="row">
+                @*<div class="col-sm-6 table-toolbar-left">
+                        <a class="btn btn-success" href="/Admin/Scientist/Create">
+                            <i class="demo-pli-add"></i> Add New
+                        </a>
+                    </div>*@
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped" id="tblData">
+                <thead>
+                    <tr>
+                        <th class="text-center">No</th>
+                        <th class="text-center">Name</th>
+                        <th class="text-center">Logo</th>
+                        <th class="text-center">Founded Year</th>
+                        <th class="text-center">Areas of AI expertise</th>
+                        <th class="text-center">Ownership type</th>
+                        <th class="text-center">Scale</th>
+
+                        <th class="text-center">Number of AI Staff</th>
+                        <th class="text-center">Website</th>
+                        @*<th class="text-center">Actions</th>*@
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null)
+                    {
+                        foreach (var item in Model.Select((value, i) => new { i, value }))
+                        {
+                    <tr id="row_@item.value.Id">
+                        <td class="text-center">@(item.i + 1)</td>
+                        <td class="text-center btn-link">
+                            <a href="#" onclick="openViewDetail('@(item.value.Id)');return false;"> @item.value.Name</a>
+                        </td>
+                        @*<td class="text-center">@item.value.Name</td>*@
+                        <td class="text-center">
+                            <img src="@item.value.Logo" style="height: 60px" />
+                        </td>
+                        <td class="text-center">@item.value.Founded_year</td>
+                        <td class="text-center">@item.value.Areas_of_AI</td>
+                        <td class="text-center">@item.value.Ownership_type</td>
+                        <td class="text-center">@item.value.Scale</td>
+                        <td class="text-center">@item.value.Number_of_AI_Staff</td>
+                        <td class="btn-link"><a href="@item.value.Website">Link</a></td>
+                    </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!--DataTables [ OPTIONAL ]-->
+    <script src="/Areas/Admin/Content/plugins/datatables/media/js/jquery.dataTables.js"></script>
+    <script src="/Areas/Admin/Content/plugins/datatables/media/js/dataTables.bootstrap.js"></script>
+    <script src="/Areas/Admin/Content/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tblData').dataTable({
+                "responsive": false,
+                "language": {
+                    "paginate": {
+                        "previous": '<i class="demo-psi-arrow-left"></i>',
+                        "next": '<i class="demo-psi-arrow-right"></i>'
+                    }
+                }
+            });
+        });
+
+        const baseUrl = "/Organization";
+        //Edit
+        function openEditing(id) {
+            window.location.href = `${baseUrl}/update?id=${id}`;
+        }
+        //view
+        function openViewDetail(id) {
+            window.location.href = `${baseUrl}/getDetail?id=${id}`;
+        }
+        //Del
+        function deleteElement(_id, name) {
+            var mess = 'Confirm <b>delete</b> this record <b>' + name + '</b>';
+            bootbox.confirm(mess, function (result) {
+                if (result) {
+                    ajax.del(`${baseUrl}/del`, { id: _id },
+                        (response) => {
+                            if (response.status) {
+                                notify.push(response.mess, notify.EType.SUCCESS);
+                                $(`#row_${_id}`).remove();
+                            } else {
+                                notify.push(mess, notify.EType.DANGER);
+                            }
+                        },
+                        (jqXHR, textStatus) => {
+                            const mess = `Request failed: ${textStatus}`;
+                            notify.push(mess, notify.EType.DANGER);
+
+                        }
+                    )
+                }
+            });
+        }</script>
+}
+

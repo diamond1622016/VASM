@@ -1,0 +1,409 @@
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csproj.CoreCompileInputs.cache
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\ScientistVA.dll.config
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\ScientistVA.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\ScientistVA.pdb
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csc.exe
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csc.exe.config
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csc.rsp
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csi.exe
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csi.exe.config
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csi.rsp
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Managed.Core.targets
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.AppContext.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Collections.Immutable.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Console.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Globalization.Calendars.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.IO.Compression.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.IO.FileSystem.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Net.Http.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Net.Sockets.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Reflection.Metadata.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.ValueTuple.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XmlDocument.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XPath.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\vbc.exe
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\vbc.exe.config
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\vbc.rsp
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\VBCSCompiler.exe
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\VBCSCompiler.exe.config
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Antlr3.Runtime.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\BELibrary.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Microsoft.Web.Infrastructure.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Newtonsoft.Json.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Helpers.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Mvc.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Optimization.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Razor.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.Deployment.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.Razor.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\WebGrease.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\EntityFramework.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\AutoMapper.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\BELibrary.pdb
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\BELibrary.dll.config
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Helpers.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Mvc.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Optimization.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Razor.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.Deployment.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.Razor.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Newtonsoft.Json.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Antlr3.Runtime.pdb
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\EntityFramework.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\AutoMapper.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csprojAssemblyReference.cache
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csproj.CopyComplete
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.pdb
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Z.EntityFramework.Plus.EF6.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Z.EntityFramework.Extensions.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Z.Expressions.Eval.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Z.EntityFramework.Plus.EF6.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Z.EntityFramework.Extensions.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\Z.Expressions.Eval.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\EntityFramework.SqlServer.dll
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\EntityFramework.SqlServer.xml
+E:\QLCBKH\CODEFULL\ScientistVA\ScientistVA\bin\CKFinder.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\ScientistVA.dll.config
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\ScientistVA.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\ScientistVA.pdb
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csc.exe
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csc.exe.config
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csc.rsp
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csi.exe
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csi.exe.config
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\csi.rsp
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Managed.Core.targets
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Win32.Primitives.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.AppContext.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Collections.Immutable.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Console.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Globalization.Calendars.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.IO.Compression.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.IO.Compression.ZipFile.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.IO.FileSystem.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Net.Http.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Net.Sockets.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Reflection.Metadata.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.ValueTuple.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XmlDocument.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XPath.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\vbc.exe
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\vbc.exe.config
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\vbc.rsp
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\VBCSCompiler.exe
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\roslyn\VBCSCompiler.exe.config
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Antlr3.Runtime.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\BELibrary.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\CKFinder.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\EntityFramework.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\EntityFramework.SqlServer.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Microsoft.Web.Infrastructure.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Newtonsoft.Json.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Helpers.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Mvc.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Optimization.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Razor.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.Deployment.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.Razor.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\WebGrease.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\AutoMapper.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Z.EntityFramework.Plus.EF6.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Z.EntityFramework.Extensions.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Z.Expressions.Eval.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\BELibrary.pdb
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\BELibrary.dll.config
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\EntityFramework.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\EntityFramework.SqlServer.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Helpers.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Mvc.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Optimization.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.Razor.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.Deployment.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\System.Web.WebPages.Razor.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Newtonsoft.Json.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Antlr3.Runtime.pdb
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\AutoMapper.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Z.EntityFramework.Plus.EF6.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Z.EntityFramework.Extensions.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\bin\Z.Expressions.Eval.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csprojAssemblyReference.cache
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csproj.CoreCompileInputs.cache
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csproj.CopyComplete
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\ScientistVA\obj\Debug\ScientistVA.pdb
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\ScientistVA.dll.config
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\ScientistVA.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\ScientistVA.pdb
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csc.exe
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csc.exe.config
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csc.rsp
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csi.exe
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csi.exe.config
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csi.rsp
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Managed.Core.targets
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.AppContext.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Collections.Immutable.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Console.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Globalization.Calendars.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.IO.Compression.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.IO.FileSystem.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Net.Http.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Net.Sockets.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Reflection.Metadata.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.ValueTuple.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XmlDocument.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XPath.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\vbc.exe
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\vbc.exe.config
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\vbc.rsp
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\VBCSCompiler.exe
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\VBCSCompiler.exe.config
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Antlr3.Runtime.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\BELibrary.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\CKFinder.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\EntityFramework.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\EntityFramework.SqlServer.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.Web.Infrastructure.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Newtonsoft.Json.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Helpers.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Mvc.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Optimization.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Razor.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.Deployment.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.Razor.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\WebGrease.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\AutoMapper.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.EntityFramework.Plus.EF6.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.EntityFramework.Extensions.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.Expressions.Eval.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\BELibrary.pdb
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\BELibrary.dll.config
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\EntityFramework.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\EntityFramework.SqlServer.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Helpers.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Mvc.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Optimization.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Razor.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.Deployment.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.Razor.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Newtonsoft.Json.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Antlr3.Runtime.pdb
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\AutoMapper.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.EntityFramework.Plus.EF6.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.EntityFramework.Extensions.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.Expressions.Eval.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csprojAssemblyReference.cache
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csproj.CoreCompileInputs.cache
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csproj.CopyComplete
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.pdb
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\ScientistVA.dll.config
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\ScientistVA.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\ScientistVA.pdb
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csc.exe
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csc.exe.config
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csc.rsp
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csi.exe
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csi.exe.config
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\csi.rsp
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Managed.Core.targets
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.AppContext.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Collections.Immutable.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Console.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Globalization.Calendars.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.IO.Compression.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.IO.FileSystem.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Net.Http.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Net.Sockets.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Reflection.Metadata.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.ValueTuple.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XmlDocument.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XPath.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\vbc.exe
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\vbc.exe.config
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\vbc.rsp
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\VBCSCompiler.exe
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\roslyn\VBCSCompiler.exe.config
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Antlr3.Runtime.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\BELibrary.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\CKFinder.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\EntityFramework.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\EntityFramework.SqlServer.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.Web.Infrastructure.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Newtonsoft.Json.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Helpers.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Mvc.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Optimization.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Razor.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.Deployment.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.Razor.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\WebGrease.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\AutoMapper.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.EntityFramework.Plus.EF6.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.EntityFramework.Extensions.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.Expressions.Eval.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\BELibrary.pdb
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\BELibrary.dll.config
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\EntityFramework.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\EntityFramework.SqlServer.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Helpers.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Mvc.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Optimization.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.Razor.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.Deployment.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Web.WebPages.Razor.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Newtonsoft.Json.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Antlr3.Runtime.pdb
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\AutoMapper.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.EntityFramework.Plus.EF6.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.EntityFramework.Extensions.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Z.Expressions.Eval.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csprojAssemblyReference.cache
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csproj.CoreCompileInputs.cache
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.csproj.CopyComplete
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\obj\Debug\ScientistVA.pdb
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\EPPlus.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.IO.RecyclableMemoryStream.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.ComponentModel.Annotations.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\EPPlus.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.IO.RecyclableMemoryStream.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Azure.Core.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Buffers.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Diagnostics.DiagnosticSource.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Memory.Data.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Memory.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Numerics.Vectors.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Text.Encodings.Web.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Text.Json.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Threading.Tasks.Extensions.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.ValueTuple.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Azure.Core.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Buffers.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Diagnostics.DiagnosticSource.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Memory.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Memory.Data.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Numerics.Vectors.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Text.Encodings.Web.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Text.Json.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.Threading.Tasks.Extensions.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\ScientistVA\bin\System.ValueTuple.xml

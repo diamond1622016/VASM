@@ -1,0 +1,220 @@
+﻿@using System.Web.Mvc
+@using BELibrary.Entity
+@model Scientist
+
+
+@using ScientistVA.Handler
+@{
+    var client = CookiesManage.GetUser();
+}
+
+@{
+    ViewBag.Title = ViewBag.Feature + " " + ViewBag.Element;
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+    //var dateOfBirth = Model != null ? Model.DateOfBirth.ToString("yyyy-MM-dd") : DateTime.Now.AddYears(-18).ToString("yyyy-MM-dd");
+    //var gender = (Model != null) ? Model.Gender : true;
+}
+@section CSS{
+    <style>
+        div.b {
+            word-wrap: break-word;
+        }
+    </style>
+}
+
+<div id="page-content">
+
+    <div class="panel">
+        <div class="panel-body">
+            <div class="fixed-fluid">
+                <div class="fixed-md-200 pull-sm-left fixed-right-border">
+
+                    <!-- Simple profile -->
+                    <div class="text-center">
+                        <div class="pad-ver">
+                            <img src=@Model.Url_picture class="img-lg img-circle" alt="Profile Picture">
+                        </div>
+                        <h4 class="text-lg text-overflow mar-no">@Model.Name</h4>
+                        <p class="text-sm text-muted">@Model.Academic_pos</p>
+
+                        <div class="pad-ver btn-groups">
+                            <a href="#" class="btn btn-icon demo-pli-facebook icon-lg add-tooltip" data-original-title="Facebook" data-container="body"></a>
+                            <a href="#" class="btn btn-icon demo-pli-twitter icon-lg add-tooltip" data-original-title="Twitter" data-container="body"></a>
+                            <a href="#" class="btn btn-icon demo-pli-google-plus icon-lg add-tooltip" data-original-title="Google+" data-container="body"></a>
+                            <a href="#" class="btn btn-icon demo-pli-instagram icon-lg add-tooltip" data-original-title="Instagram" data-container="body"></a>
+                        </div>
+
+                        <button class="btn btn-block btn-success btn-sm" onclick="location.href='https://scholar.google.com/citations?user=@Model.Scholar_id&hl=en&oi=sra'">Google Scholar</button>
+                    </div>
+                    <hr>
+
+                    <!-- Profile Details -->
+                    <p class="pad-ver text-main text-sm text-uppercase text-bold">About Me</p>
+                    <p><i class="demo-pli-map-marker-2 icon-lg icon-fw"></i> @(Model.Nationality!= null? Model.Nationality: "Viet Nam")</p>
+                    <div class="b"> <p><a href="@(Model.Personal_web_link!=null? Model.Personal_web_link : "abc.com")" class="btn-link"><i class="demo-pli-internet icon-lg icon-fw"></i> @(Model.Personal_web_link != null? Model.Personal_web_link : "abc.com")</a></p></div>
+                    @*<p><a href="#" class="btn-link"><i class="demo-pli-internet icon-lg icon-fw"></i> @(Model.Personal_web_link!=null? Model.Personal_web_link : "abc.com")</a></p>*@
+                    <p><i class="demo-pli-old-telephone icon-lg icon-fw"></i>(123) 456 1234</p>
+
+
+                    <hr>
+                    <p class="pad-ver text-main text-sm text-uppercase text-bold">Interests</p>
+                    <ul class="list-inline">
+
+                        <p class="text-sm text-center">@Model.Interests</p>
+                    </ul>
+                    <hr>
+                    <p class="pad-ver text-main text-sm text-uppercase text-bold">Skills</p>
+                    <ul class="list-inline">
+                        <li class="tag tag-sm">PHP Programming</li>
+                        <li class="tag tag-sm">Marketing</li>
+                        <li class="tag tag-sm">Graphic Design</li>
+                        <li class="tag tag-sm">Sketch</li>
+                        <li class="tag tag-sm">Photography</li>
+                    </ul>
+
+                    <hr>
+                </div>
+                <div class="fluid">
+                    <div class="text-right">
+                        <button onclick="window.history.back();" class="btn btn-sm btn-primary"><i class="demo-pli-arrow-left-2"></i> Back</button>
+                    </div>
+
+                    <div class="comments media-block">
+                        <div class="comment-header">
+                            <p class="text-normal text-bold"><i class="demo-pli-monitor-2 icon-lg"></i> All publications:</p>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped" id="tblData">
+                                <thead>
+                                    <tr>
+                                        <th class="text-center">No</th>
+                                        <th class="text-center">Title</th>
+                                        <th class="text-center">Authors</th>
+                                        <th class="text-center">Year</th>
+                                        <th class="text-center">Journal</th>
+                                        <th class="text-center">Volume</th>
+                                        <th class="text-center">Number</th>
+
+                                        <th class="text-center">Pages</th>
+                                        <th class="text-center">Publisher</th>
+                                        <th class="text-center">Cited By</th>
+                                        @*<th class="text-center">Actions</th>*@
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in (ViewBag.ListPaper as List<Paper>).Select((value, i) => new { i, value }))
+                                    {
+                                        <tr id="row_@item.value.Id">
+                                            <td class="text-center">@(item.i + 1)</td>
+
+                                            <td class="text-center btn-link">
+                                                <a href=@(!string.IsNullOrEmpty(item.value.Paper_link) ? item.value.Paper_link.ToString() : "#")> @item.value.Title</a>
+                                            </td>
+                                            <td class="text-center">@item.value.Authors</td>
+                                            <td class="text-center">@item.value.Pub_year</td>
+                                            <td class="text-center">@item.value.Journal</td>
+                                            <td class="text-center">@item.value.Volume</td>
+                                            <td class="text-center">@item.value.Number</td>
+                                            <td class="text-center">@item.value.Pages</td>
+                                            <td class="text-center">@item.value.Publisher</td>
+                                            <td class="text-center">@item.value.Num_citations</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                        <!--===================================================-->
+                        <!-- End Newsfeed Content -->
+                        <!-- Newsfeed Content -->
+                        <!--===================================================-->
+                        @* <div class="comments media-block">
+                                <a class="media-left" href="#"><img class="img-circle img-sm" alt="Profile Picture" src="img/profile-photos/8.png"></a>
+                                <div class="media-body">
+                                    <div class="text-right">
+                                        <a class="btn btn-sm btn-default"><i class="icon-lg demo-pli-like"></i> Like </a>
+                                        <a class="btn btn-sm btn-default"><i class="icon-lg demo-pli-heart-2"></i> Love</a>
+                                        <a class="btn btn-sm btn-purple"><i class="icon-lg demo-pli-speech-bubble-5"></i> Message</a>
+                                    </div>
+                                </div>
+                            </div>*@
+                        <!--===================================================-->
+                        <!-- End Newsfeed Content -->
+                        @* <button class="btn btn-primary btn-block mar-ver">Load More</button>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    @section Scripts {
+        <!--DataTables [ OPTIONAL ]-->
+        <script src="/Areas/Admin/Content/plugins/datatables/media/js/jquery.dataTables.js"></script>
+        <script src="/Areas/Admin/Content/plugins/datatables/media/js/dataTables.bootstrap.js"></script>
+        <script src="/Areas/Admin/Content/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+
+        <script>
+            $(document).ready(function () {
+                $('#tblData').dataTable({
+                    "language": {
+                        "paginate": {
+                            "previous": '<i class="demo-psi-arrow-left"></i>',
+                            "next": '<i class="demo-psi-arrow-right"></i>'
+                        },
+                        //"search": "Tìm kiếm:",
+                        //"emptyTable": "Dữ liệu trống",
+                        //"zeroRecords": "Không tìm thấy bản nghi nào",
+                        //"decimal": "",
+                        //"info": "Hiển thị _START_ đến _END_ của _TOTAL_ bản ghi",
+                        //"infoEmpty": "Hiển thị 0 đến 0 của 0 bản ghi",
+                        //"infoFiltered": "(filtered from _MAX_ total entries)",
+                        //"infoPostFix": "",
+                        //"thousands": ",",
+                        //"lengthMenu": "Hiển thị _MENU_ bản ghi",
+                        //"loadingRecords": "Đang tải...",
+                        //"processing": "Đang xử lý...",
+                        //"aria": {
+                        //    "sortAscending": ": Kích hoạt để sắp xếp cột tăng",
+                        //    "sortDescending": ": Kích hoạt để sắp xếp cột giảm"
+                        //}
+                    },
+                    columnDefs: [{
+                        targets: [0, 1, 2, 3, 4, 5, 6]
+                    }],
+                    order: [[1, 'asc']]
+                });
+            });
+
+            const baseUrl = "/scientist";
+            //Edit
+            function openEditing(id) {
+                window.location.href = `${baseUrl}/update?id=${id}`;
+            }
+            //view
+            function openViewDetail(id) {
+                window.location.href = `${baseUrl}/get?id=${id}`;
+            }
+            //Del
+            function deleteElement(_id, name) {
+                var mess = 'Confirm <b>delete</b> this record <b>' + name + '</b>';
+                bootbox.confirm(mess, function (result) {
+                    if (result) {
+                        ajax.del(`${baseUrl}/del`, { id: _id },
+                            (response) => {
+                                if (response.status) {
+                                    notify.push(response.mess, notify.EType.SUCCESS);
+                                    $(`#row_${_id}`).remove();
+                                } else {
+                                    notify.push(mess, notify.EType.DANGER);
+                                }
+                            },
+                            (jqXHR, textStatus) => {
+                                const mess = `Request failed: ${textStatus}`;
+                                notify.push(mess, notify.EType.DANGER);
+
+                            }
+                        )
+                    }
+                });
+            }</script>
+
+    }

@@ -1,0 +1,190 @@
+﻿@using System.Web.Mvc
+@using BELibrary.Entity
+@model Scientist
+@{
+    ViewBag.Title = ViewBag.Feature + " " + ViewBag.Element;
+    Layout = "~/Views/Shared/_LayoutFront.cshtml"; ;
+    //var dateOfBirth = Model != null ? Model.DateOfBirth.ToString("yyyy-MM-dd") : DateTime.Now.AddYears(-18).ToString("yyyy-MM-dd");
+    //var gender = (Model != null) ? Model.Gender : true;
+}
+<div class="row">
+    <div class="col-sm-12">
+        <div class="panel">
+            <div class="panel-heading">
+            </div>
+
+            <!--Block Styled Form -->
+            <!--===================================================-->
+            <form method="post" id="form">
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @if (ViewBag.isEdit)
+                {
+                    <input type="hidden" value="true" name="isEdit" />
+                    <input type="hidden" value="@Model.Id" name="Id" />
+                }
+                else
+                {
+                    <input type="hidden" value="false" name="isEdit" />
+                }
+
+                <input type="hidden" value="false" name="isSaveAs" />
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="form-group">
+                                <label class="control-label">Name</label>
+                                @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <div class="form-group">
+                                <label class="control-label">Affiliation</label>
+                                @Html.EditorFor(model => model.Affiliation, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                            </div>
+                        </div>
+                        @*<div class="col-sm-4">
+                                <div class="form-group">
+                                    <label class="control-label">Ngày sinh</label>
+                                </div>
+                            </div>*@
+                    </div>
+                    <div class="row">
+                        @*<div class="col-sm-2">
+                                <div class="form-group">
+                                    <label class="control-label">Giới tính</label>
+                                    <select name="Gender" class="form-control" required value="@gender.ToString()">
+                                        <option>---- Lựa chọn ----</option>
+                                        <option value="True" @(gender ? "selected" : "")>Nam</option>
+                                        <option value="False" @(!gender ? "selected" : "")>Nữ</option>
+                                    </select>
+                                </div>
+                            </div>*@
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="control-label">Email</label>
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label class="control-label">Citedby</label>
+                                @Html.EditorFor(model => model.Citedby, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="form-group">
+                                <label class="control-label">Cites per year</label>
+                                @Html.EditorFor(model => model.Cites_per_year, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="form-group">
+                                <label class="control-label">I10 Index</label>
+                                @Html.EditorFor(model => model.I10Index, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label class="control-label">Interests</label>
+                                @Html.TextAreaFor(model => model.Interests, new { @class = "form-control", @rows = "6", @maxlength = 1000 })
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                                <label class="control-label">Photo</label>
+                                <div class="input-group mar-btm">
+                                    @Html.EditorFor(model => model.Url_picture, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                    <span class="input-group-btn" onclick="ChooseImgAvatar()">
+                                        <a class="btn btn-mint btn-icon"><i class="fa fa-cloud-upload icon-lg"></i></a>
+                                    </span>
+                                </div>
+                                @if (ViewBag.isEdit)
+                                {
+                                    <img class="img img-thumbnail" id="ImgAvt" style="width: 200px;float: right" src="@Model.Url_picture" alt="" />
+                                }
+                                else
+                                {
+                                    <img class="img img-thumbnail" id="ImgAvt" src="" alt="" style="width: 200px;float: right" />
+                                }
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-footer text-center">
+                    <button class="btn btn-success">Lưu</button>
+                    <a class="btn btn-danger" href="/admin/Scientist/">Hủy</a>
+                </div>
+            </form>
+            <!--===================================================-->
+            <!--End Block Styled Form -->
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMyiVgN9rodizCjq6WoTVQPwEYIZj_mgc"></script>
+    <script src="~/Areas/Admin/Content/js/address-lookup.js"></script>
+    <script>
+        $("#lookup").addressLookup({
+            "input": "#address-lookup"
+        })
+    </script>
+
+    <script>
+        $("#ImageProfile").change(function () {
+            const imgSrc = $("input[name=Url_picture]").val();
+            if (imgSrc !== "") {
+                $("#ImgAvt").attr("src", imgSrc);
+            }
+        });
+        function ChooseImgAvatar() {
+            const finder = new CKFinder();
+            finder.selectActionFunction = function (fileUrl) {
+                $("#ImgAvt").attr("src", fileUrl);
+                $("#Url_picture").val(fileUrl);
+            }
+            finder.popup();
+        }
+
+        const baseUrl = '/admin/Scientist';
+        // Valid
+        const fields = {
+            Name: {
+                container: 'tooltip',
+                validators: {
+                    notEmpty: {
+                        message: 'Họ tên là bắt buộc và không thể để trống'
+                    }
+                }
+            },
+
+        }
+        validator.valid('form', fields, (e) => {
+            e.preventDefault();
+            var formData = new FormData(document.getElementById('form'));
+            ajax.createOrUpdate(`${baseUrl}/CreateOrEdit`, formData,
+                (response) => {
+                    if (response.status) {
+                        notify.push(response.mess, notify.EType.SUCCESS);
+                        notify.loading();
+                        window.location.href = baseUrl;
+                    } else {
+                        notify.push(response.mess, notify.EType.DANGER);
+                        $(':input[type="submit"]').prop('disabled', false);
+                    }
+                },
+                (jqXhr, textStatus) => {
+                    const mess = `Request failed: ${textStatus}`;
+                    notify.push(mess, notify.EType.DANGER);
+                    $(':input[type="submit"]').prop('disabled', false);
+                }
+            );
+        });
+    </script>
+}

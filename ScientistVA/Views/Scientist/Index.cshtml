@@ -1,0 +1,134 @@
+﻿@using BELibrary.Entity
+@using BELibrary.Utils
+@model List<Scientist>
+@{ ViewBag.Title = "All Scientists";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml"; }
+@section CSS{
+    <!--DataTables [ OPTIONAL ]-->
+    <link href="/Areas/Admin/Content/plugins/datatables/media/css/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="/Areas/Admin/Content/plugins/datatables/extensions/Responsive/css/responsive.dataTables.min.css" rel="stylesheet">
+}
+
+<!--List-->
+<div class="panel">
+    <div class="panel-body">
+        <div class="pad-btm form-inline">
+            <div class="row">
+                @*<div class="col-sm-6 table-toolbar-left">
+                        <a class="btn btn-success" href="/Admin/Scientist/Create">
+                            <i class="demo-pli-add"></i> Add New
+                        </a>
+                    </div>*@
+            </div>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped" id="tblData">
+                <thead>
+                    <tr>
+                        <th class="text-center">No</th>
+                        <th class="text-center">Name</th>
+                        <th class="text-center">Photo</th>
+                        <th class="text-center">Scholar Id</th>
+                        <th class="text-center">Affiliation</th>
+                        <th class="text-center">Interested topics</th>
+                        <th class="text-center">Research output</th>
+                        @*<th class="text-center">Actions</th>*@
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Select((value, i) => new { i, value }))
+                    {
+                        <tr id="row_@item.value.Id">
+                            <td class="text-center">@(item.i + 1)</td>
+
+                            <td class="text-center btn-link">
+                            <a href="#" onclick="openViewDetail('@(item.value.Id)');return false;"> @item.value.Name</a></td>
+                            @*<td class="text-center">@item.value.Scholar_id</td>*@
+                            <td class="text-center">
+                                <img src="@item.value.Url_picture" style="height: 60px" />
+
+                            </td>
+                            <td class="btn-link"><a href="https://scholar.google.com/citations?user=@item.value.Scholar_id&hl=en&oi=sra">@item.value.Scholar_id</a></td>
+                            <td class="text-center">@item.value.Affiliation</td>
+                            <td class="text-center">@item.value.Interests</td>
+                            <td class="text-center">Citations:@(!string.IsNullOrEmpty(item.value.Citedby) ? item.value.Citedby.ToString() : "0") <br /> H-Index: @item.value.HIndex </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <!--DataTables [ OPTIONAL ]-->
+    <script src="/Areas/Admin/Content/plugins/datatables/media/js/jquery.dataTables.js"></script>
+    <script src="/Areas/Admin/Content/plugins/datatables/media/js/dataTables.bootstrap.js"></script>
+    <script src="/Areas/Admin/Content/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#tblData').dataTable({
+                "language": {
+                    "paginate": {
+                        "previous": '<i class="demo-psi-arrow-left"></i>',
+                        "next": '<i class="demo-psi-arrow-right"></i>'
+                    },
+                    //"search": "Tìm kiếm:",
+                    //"emptyTable": "Dữ liệu trống",
+                    //"zeroRecords": "Không tìm thấy bản nghi nào",
+                    //"decimal": "",
+                    //"info": "Hiển thị _START_ đến _END_ của _TOTAL_ bản ghi",
+                    //"infoEmpty": "Hiển thị 0 đến 0 của 0 bản ghi",
+                    //"infoFiltered": "(filtered from _MAX_ total entries)",
+                    //"infoPostFix": "",
+                    //"thousands": ",",
+                    //"lengthMenu": "Hiển thị _MENU_ bản ghi",
+                    //"loadingRecords": "Đang tải...",
+                    //"processing": "Đang xử lý...",
+                    //"aria": {
+                    //    "sortAscending": ": Kích hoạt để sắp xếp cột tăng",
+                    //    "sortDescending": ": Kích hoạt để sắp xếp cột giảm"
+                    //}
+                },
+                columnDefs: [{
+                    targets: [0, 1, 2, 3, 4 , 5 ,6]
+                }],
+                order: [[1, 'asc']]
+            });
+        });
+
+        const baseUrl = "/scientist";
+        //Edit
+        function openEditing(id) {
+            window.location.href = `${baseUrl}/update?id=${id}`;
+        }
+        //view
+        function openViewDetail(id) {
+            window.location.href = `${baseUrl}/get?id=${id}`;
+        }
+        //Del
+        function deleteElement(_id, name) {
+            var mess = 'Confirm <b>delete</b> this record <b>' + name + '</b>';
+            bootbox.confirm(mess, function (result) {
+                if (result) {
+                    ajax.del(`${baseUrl}/del`, { id: _id },
+                        (response) => {
+                            if (response.status) {
+                                notify.push(response.mess, notify.EType.SUCCESS);
+                                $(`#row_${_id}`).remove();
+                            } else {
+                                notify.push(mess, notify.EType.DANGER);
+                            }
+                        },
+                        (jqXHR, textStatus) => {
+                            const mess = `Request failed: ${textStatus}`;
+                            notify.push(mess, notify.EType.DANGER);
+
+                        }
+                    )
+                }
+            });
+        }</script>
+}
+

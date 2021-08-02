@@ -1,0 +1,479 @@
+﻿@using System.Web.Mvc
+@using BELibrary.Entity
+@model Scientist
+@{
+    ViewBag.Title = ViewBag.Feature + " " + ViewBag.Element;
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    //var dateOfBirth = Model != null ? Model.DateOfBirth.ToString("yyyy-MM-dd") : DateTime.Now.AddYears(-18).ToString("yyyy-MM-dd");
+    //var gender = (Model != null) ? Model.Gender : true;
+}
+@section CSS {
+    <style>
+
+        .autocomplete-suggestions {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #999;
+            background: #FFF;
+            cursor: default;
+            overflow: auto;
+            -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+            -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+            box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+        }
+
+        .autocomplete-suggestion {
+            padding: 2px 5px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .autocomplete-no-suggestion {
+            padding: 2px 5px;
+        }
+
+        .autocomplete-selected {
+            background: #F0F0F0;
+        }
+
+        .autocomplete-suggestions strong {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .autocomplete-group {
+            padding: 2px 5px;
+            font-weight: bold;
+            font-size: 16px;
+            color: #000;
+            display: block;
+            border-bottom: 1px solid #000;
+        } 
+    </style>
+
+
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <form method="post" id="form">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @if (ViewBag.isEdit)
+            {
+                <input type="hidden" value="true" name="isEdit" />
+                <input type="hidden" value="@Model.Id" name="Id" />
+            }
+            else
+            {
+                <input type="hidden" value="false" name="isEdit" />
+            }
+
+            <input type="hidden" value="false" name="isSaveAs" />
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel">
+                        @*<div class="panel-heading">
+                                <h3 class="panel-title">Basic Form Elements</h3>
+                            </div>*@
+
+                        <div class="panel-body form-horizontal form-padding">
+
+                            <!-- BASIC FORM ELEMENTS -->
+                            <!--===================================================-->
+                            <!--Text Input-->
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Photo</label>
+                                <div class="col-md-10">
+                                    <div>
+
+                                        @if (ViewBag.isEdit)
+                                        {
+                                            <img class="img img-thumbnail mar-btm" id="ImgAvt" style="width: 200px" src="@Model.Url_picture" alt="" />
+                                        }
+                                        else
+                                        {
+                                            <img class="img img-thumbnail mar-btm" id="ImgAvt" style="width: 200px; min-height:210px" src="" alt="" />
+                                        }
+
+
+                                        <div class="input-group mar-btm">
+
+
+                                            @Html.EditorFor(model => model.Url_picture, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                            <span class="input-group-btn" onclick="ChooseImgAvatar()">
+                                                <a class="btn btn-mint btn-icon"><i class="fa fa-cloud-upload icon-lg"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Name</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Country</label>
+                                <div class="col-md-10">
+                                    @Html.DropDownList("Nationality", (SelectList)ViewBag.Nationality,
+                                   new { @class = "form-control", @required = "required", id = "Nationality" })
+
+                                    @* @Html.EditorFor(model => model.Nationality, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })*@
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Interests</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Interests, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Google Scholar ID (if available)</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Scholar_id, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    Academic position (if applicable)
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Academic_pos, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    Academic rank
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Qualification, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    Position
+                                </label>
+                                <div class="col-md-10">
+                                    @*@Html.EditorFor(model => model.Position, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })*@
+
+
+                                    @Html.DropDownList("Position", (SelectList)ViewBag.Positions,
+                                    new { @class = "form-control", @required = "required", id = "Position" })
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Email</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Affiliation description</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Affiliation, new { htmlAttributes = new { @class = "form-control", @maxlength = 250, placeholder = "e.g. Faculty of Information Technology" } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Organization</label>
+                                <div class="col-md-10">
+                                    <div style="position: relative; height: 80px;">
+                                        <input type="text" name="country" id="autocomplete-ajax" style="position: absolute; z-index: 2; background: transparent;" class="form-control" />
+                                        <input type="text" name="country" id="autocomplete-ajax-x" class="form-control" disabled="disabled" style="color: #CCC; position: absolute;border: none; background: transparent; z-index: 1;" />
+                                    </div>
+                                    <div id="selction-ajax"></div>
+                                    @Html.EditorFor(model => model.OrganizationId, new { htmlAttributes = new { @class = "form-control", @required = "required", @maxlength = 250, @type="hidden"} })
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    Number of publications (if applicable)
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Paper_num, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    Interested topics for international cooperation in AI (especially with Australian partners):
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.DropDownList("Interested_topics", (SelectList)ViewBag.InterestedTopic,
+                                 new { multiple = "multiple", @class = "form-control", @required = "required", id = "Interested_topics" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    Personal web link (if applicable)
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Personal_web_link, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Citedby</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Citedby, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Cites per year</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Cites_per_year, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    H-Index (if applicable)
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.HIndex, new { htmlAttributes = new { @class = "form-control", @maxlength = 250 } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">I10 Index</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.I10Index, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">Cited by 5 recent years</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Citedby5y, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">H index 5 recent years</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Hindex5y, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">I10 index 5 recent years</label>
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.I10index5y, new { htmlAttributes = new { @class = "form-control", @type = "number" } })
+                                </div>
+                            </div>
+                            <!--===================================================-->
+                            <!-- END BASIC FORM ELEMENTS -->
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel">
+                        @*<div class="panel-heading">
+                                <h3 class="panel-title">Basic Form Elements</h3>
+                            </div>*@
+                        <!-- BASIC FORM ELEMENTS -->
+                        <!--===================================================-->
+                        <div class="panel-body form-horizontal form-padding">
+
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    Bio sketch
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.TextAreaFor(model => model.Bio_sketch, new { @class = "form-control", @rows = "20" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    AI-related working plan for next 3-5 years:
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.TextAreaFor(model => model.Working_plan, new { @class = "form-control", @rows = "14" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-2 control-label">
+                                    Selected AI Publications:
+                                </label>
+                                <div class="col-md-10">
+                                    @Html.TextAreaFor(model => model.PaperList, new { @class = "form-control", @rows = "5", @id = "PaperList" })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div style="display: flex; justify-content: center; align-content: center; align-items: center" class="pad-all">
+                        <button class="btn btn-mint" style="margin-right: 10px" type="submit">Save</button>
+                        <button class="btn btn-warning" type="reset" onclick="goBack()">Cancel</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/Areas/Admin/Content/plugins/autocomplete/jquery.autocomplete.min.js"></script>
+
+    <script>
+
+        $(document).ready(function () {
+
+            $("#Interested_topics").select2();
+            $("#position").select2();
+
+
+            if ($("input[name=Id]").val()) {
+
+                const Interested_topics = JSON.parse('@Html.Raw(Json.Encode(ViewBag.SelectedInterestedTopic))');
+                $('#Interested_topics').val(Interested_topics);
+                $('#Interested_topics').trigger('change');
+
+                const CountryTypeSelected = JSON.parse('@Html.Raw(Json.Encode(ViewBag.CountryTypeSelected))');
+                $('#Nationality').val(CountryTypeSelected);
+                $('#Nationality').trigger('change');
+
+                const PositionTypeSelected = JSON.parse('@Html.Raw(Json.Encode(ViewBag.PositionTypeSelected))');
+                $('#Position').val(PositionTypeSelected);
+                $('#Position').trigger('change');
+
+            }
+
+
+            @*  $("#combMovieDisplayTypes").select2();*@
+
+            CKEDITOR.replace("PaperList", {
+                height: 500,
+                language: 'en'
+            });
+
+            CKEDITOR.config.toolbar = [
+                ['Styles', 'Format', 'Font', 'FontSize'],
+                '/',
+                ['Bold', 'Italic', 'Underline', 'StrikeThrough', '-', 'Undo', 'Redo', '-', 'Cut', 'Copy', 'Paste', 'Find', 'Replace', '-', 'Outdent', 'Indent', '-', 'Print'],
+                '/',
+                ['NumberedList', 'BulletedList', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+                ['Image', 'Table', '-', 'Link', 'Flash', 'Smiley', 'TextColor', 'BGColor', 'Source']
+            ];
+
+            $('#autocomplete-ajax').val('@Html.Raw(ViewBag.OrgName)');
+
+            $('#autocomplete-ajax').autocomplete({
+                serviceUrl: '/admin/Scientist/GetJson',
+
+                lookupFilter: function (suggestion, originalQuery, queryLowerCase) {
+                    var re = new RegExp('\\b' + $.Autocomplete.utils.escapeRegExChars(queryLowerCase), 'gi');
+                    return re.test(suggestion.value);
+                },
+                onSelect: function (suggestion) {
+                    $('#OrganizationId').val(suggestion.data);
+                },
+                onHint: function (hint) {
+                    $('#autocomplete-ajax-x').val(hint);
+                },
+                onInvalidateSelection: function () {
+                    $('#selction-ajax').html('You selected: none');
+                }
+            });
+
+
+
+        });
+        const baseUrl = '/admin/Scientist';
+        function goBack() {
+            @*const id = $('input[name="Id"]').val();
+            window.location.href = `/home/get?id=${id}`;*@
+            window.location.href = baseUrl;
+        }
+
+        $("#ImageProfile").change(function () {
+            const imgSrc = $("input[name=Url_picture]").val();
+            if (imgSrc !== "") {
+                $("#ImgAvt").attr("src", imgSrc);
+            }
+        });
+        function ChooseImgAvatar() {
+            const finder = new CKFinder();
+            finder.selectActionFunction = function (fileUrl) {
+                $("#ImgAvt").attr("src", fileUrl);
+                $("#Url_picture").val(fileUrl);
+            }
+            finder.popup();
+        }
+
+
+        // Valid
+        const fields = {
+            Name: {
+                container: 'tooltip',
+                validators: {
+                    notEmpty: {
+                        message: 'The name is required and cannot be left blank'
+                    }
+                }
+            },
+
+        }
+        validator.valid('form', fields, (e) => {
+            e.preventDefault();
+            var content = CKEDITOR.instances['PaperList'].getData();
+            if (content.length <= 0) {
+                $.niftyNoty({
+                    type: 'danger',
+                    icon: 'fa fa-minus',
+                    message: "The content must not be empty",
+                    container: 'floating',
+                    timer: 3000
+                });
+                return;
+            }
+            var formData = new FormData(document.getElementById('form'));
+            formData.set("PaperList", content);
+
+            let interestedTopics = $("#Interested_topics").val();
+
+            let interestedTopicJoin = interestedTopics.join();
+
+            formData.set("Interested_topics", interestedTopicJoin);
+            //if (!Model)
+            //    formData.set("Type", Model.Type);
+
+            ajax.createOrUpdate(`${baseUrl}/CreateOrEdit`, formData,
+                (response) => {
+                    if (response.status) {
+                        notify.push(response.mess, notify.EType.SUCCESS);
+                        notify.loading();
+                        window.location.href = baseUrl;
+                    } else {
+                        notify.push(response.mess, notify.EType.DANGER);
+                        $(':input[type="submit"]').prop('disabled', false);
+                    }
+                },
+                (jqXhr, textStatus) => {
+                    const mess = `Request failed: ${textStatus}`;
+                    notify.push(mess, notify.EType.DANGER);
+                    $(':input[type="submit"]').prop('disabled', false);
+                }
+            );
+        });
+    </script>
+}
