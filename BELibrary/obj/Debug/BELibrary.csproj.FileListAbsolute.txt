@@ -1,0 +1,198 @@
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\BELibrary.dll.config
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\BELibrary.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\BELibrary.pdb
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\AutoMapper.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\EntityFramework.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Options.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Buffers.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.ComponentModel.Annotations.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Memory.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Numerics.Vectors.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\AutoMapper.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\EntityFramework.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Options.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Buffers.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Memory.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Numerics.Vectors.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.dll
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.pdb
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Init_Database.resources
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.csprojAssemblyReference.cache
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist.resources
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist1.resources
+E:\QLCBKH\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist2.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\BELibrary.dll.config
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\BELibrary.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\BELibrary.pdb
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\AutoMapper.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\EntityFramework.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Options.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Primitives.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Buffers.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.ComponentModel.Annotations.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Memory.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Numerics.Vectors.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\AutoMapper.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\EntityFramework.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Options.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Primitives.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Buffers.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Memory.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Numerics.Vectors.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.csprojAssemblyReference.cache
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Init_Database.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist1.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist2.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.dll
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.pdb
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_Column_To_Scientist_Table.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Organization_ok.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.change_String_Length.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.change_String_Length2.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_collumn.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_collumn2.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_email_column.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.maxlength_new_email_column.resources
+G:\My Drive\MY PROJECT\QLCBNC\CODEFULL\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_fk_account_tbale.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\BELibrary.dll.config
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\BELibrary.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\BELibrary.pdb
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\AutoMapper.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\EntityFramework.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Options.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Buffers.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.ComponentModel.Annotations.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Memory.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Numerics.Vectors.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\AutoMapper.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\EntityFramework.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Options.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Buffers.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Memory.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Numerics.Vectors.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Init_Database.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist1.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist2.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_Column_To_Scientist_Table.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Organization_ok.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.change_String_Length.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.change_String_Length2.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_collumn.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_collumn2.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_email_column.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.maxlength_new_email_column.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_fk_account_tbale.resources
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.dll
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.pdb
+E:\PROJECTS\QLCBNC\CODE FULL\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csprojAssemblyReference.cache
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\BELibrary.dll.config
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\BELibrary.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\BELibrary.pdb
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\AutoMapper.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\EntityFramework.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Options.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Buffers.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.ComponentModel.Annotations.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Memory.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Numerics.Vectors.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\AutoMapper.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\EntityFramework.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Options.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Buffers.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Memory.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Numerics.Vectors.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Init_Database.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist1.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Scientist2.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_Column_To_Scientist_Table.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Table_Organization_ok.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.change_String_Length.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.change_String_Length2.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_collumn.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_collumn2.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_email_column.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.maxlength_new_email_column.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_fk_account_tbale.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.pdb
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_new_Type.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_new_Type_new.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_new_orgid.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_new_typeOrg.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Column_OrganizationId_And_FK.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_emailConfirmed.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_Table_Paper.resources
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csprojAssemblyReference.cache
