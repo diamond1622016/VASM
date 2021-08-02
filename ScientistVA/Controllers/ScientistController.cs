@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-
+using PagedList;
 namespace ScientistVA.Controllers
 {
     public class ScientistController : Controller
@@ -48,7 +48,7 @@ namespace ScientistVA.Controllers
         {
             return View();
         }
-        
+
 
         public ActionResult get(Guid id)
         {
@@ -60,7 +60,7 @@ namespace ScientistVA.Controllers
                 //ViewBag.BaseURL = Request.Url.LocalPath;
 
                 //ViewBag.BaseURL = string.Join("", Request.Url.Segments.Take(Request.Url.Segments.Length - 1));
-                ViewBag.BaseURL = "getAllVN";
+                ViewBag.BaseURL = "SearchAll";
             }
 
             using (var workScope = new UnitOfWork(new ScientistDbContext()))
@@ -88,7 +88,7 @@ namespace ScientistVA.Controllers
                 //ViewBag.BaseURL = Request.Url.LocalPath;
 
                 //ViewBag.BaseURL = string.Join("", Request.Url.Segments.Take(Request.Url.Segments.Length - 1));
-                ViewBag.BaseURL = "getAllVN";
+                ViewBag.BaseURL = "SearchAll";
             }
 
             using (var workScope = new UnitOfWork(new ScientistDbContext()))
@@ -120,7 +120,7 @@ namespace ScientistVA.Controllers
             var user = CookiesManage.GetUser();
 
 
-            if(!user.ScientistId.HasValue || user.ScientistId != id)
+            if (!user.ScientistId.HasValue || user.ScientistId != id)
             {
                 return RedirectToAction("Login", "Account");
             }
@@ -341,6 +341,77 @@ namespace ScientistVA.Controllers
                 });
             }
         }
+        
+        [HttpGet]
+        public JsonResult GetJson(string query)
+        {
+            using (var workScope = new UnitOfWork(new ScientistDbContext()))
+            {
+                var scientists = workScope.Scientists.Query(x => x.Name.Contains(query)).Select(x => new
+                {
+                    value = x.Name,
+                    data = x.Id
+                }).ToList();
 
+                return Json(new
+                {
+                    suggestions = scientists
+                }, JsonRequestBehavior.AllowGet);
+            }
+        }
+        public ActionResult SearchAll(string query, int? page, string country)
+        {
+            if(country!=null)
+                ViewBag.Country = country;
+
+            if (country=="vn")
+                ViewBag.Feature = "Vietnamese Scientists";
+            else if(country == "au")
+                ViewBag.Feature = "Australian Scientists";
+            else
+                ViewBag.Feature = "All Scientists";
+            ViewBag.Element = KeyElement;
+
+            if (Request.Url != null) ViewBag.BaseURL = Request.Url.LocalPath;
+
+            if (query == "")
+            {
+                query = null;
+            }
+
+            ViewBag.QueryData = query;
+            var pageNumber = (page ?? 1);
+            const int pageSize = 10;
+            var listData = new List<Scientist>();
+            using (var workScope = new UnitOfWork(new ScientistDbContext()))
+            {
+                //var listData = workScope.Scientists.Query(x => !x.IsDelete).OrderByDescending(x => x.ModifiedDate).ToList();
+                if(country=="vn")
+                    listData = workScope.Scientists.Query(x => x.Nationality.ToLower().Contains("vietnam") || x.Email_domain.ToLower().Contains(".vn")).ToList();
+                else if (country == "au")
+                    listData = workScope.Scientists.Query(x => x.Nationality.ToLower().Contains("australia") || x.Email_domain.ToLower().Contains(".au")).ToList();
+                else
+                    listData = workScope.Scientists.Query(x => x.Nationality!="").ToList();
+                if (query == null)
+                {
+                    ViewBag.Total = listData.Count();
+                    return View("Index", listData.ToPagedList(pageNumber, pageSize));
+                }
+
+                var q = (from mt in listData
+                         where (!string.IsNullOrEmpty(query) &&
+                                (mt.Name.ToLower().Contains(query.ToLower())
+                                 || !string.IsNullOrEmpty(mt.Affiliation) && mt.Affiliation.ToLower().Contains(query.ToLower())
+                                 || !string.IsNullOrEmpty(mt.Interested_topics) && mt.Interested_topics.ToLower().Contains(query.ToLower())
+                                 || !string.IsNullOrEmpty(mt.Nationality) && mt.Nationality.ToLower().Contains(query.ToLower())
+                                 || !string.IsNullOrEmpty(mt.Position) && mt.Position.ToLower().Contains(query.ToLower())))
+
+                         select mt).AsQueryable();
+
+                ViewBag.Total = q.Count();
+                return View("Index", q.ToPagedList(pageNumber, pageSize));
+            }
+        }
+        
     }
 }

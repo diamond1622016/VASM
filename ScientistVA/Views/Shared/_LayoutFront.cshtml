@@ -5,7 +5,7 @@
 }
 
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -488,13 +488,13 @@
                                         <!--Submenu-->
                                         <ul class="@(ViewContext.RouteData.Values["controller"].ToString().ToLower().Equals("scientist")? "collapse in" : "collapse")">
                                             <li>
-                                                <a href="/scientist/getAllVN">(-) Vietnamese</a>
+                                                <a href="/scientist/SearchAll?country=vn">(-) Vietnamese</a>
                                             </li>
                                             <li>
-                                                <a href="/scientist/getAllAustr">(-) Australian</a>
+                                                <a href="/scientist/SearchAll?country=au">(-) Australian</a>
                                             </li>
                                             <li>
-                                                <a href="/scientist/Index">(-) All data</a>
+                                                <a href="/scientist/SearchAll?country=all">(-) All data</a>
                                             </li>
                                         </ul>
                                         @*<ul class="@(ViewContext.RouteData.Values["controller"].ToString().ToLower().Equals("scientist")? "collapse in" : "collapse")">

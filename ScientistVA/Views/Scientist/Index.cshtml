@@ -1,12 +1,83 @@
 ﻿@using BELibrary.Entity
-@using BELibrary.Utils
-@model List<Scientist>
-@{ ViewBag.Title = "All Scientists";
-    Layout = "~/Views/Shared/_LayoutFront.cshtml"; }
+@using PagedList.Mvc
+@*@model List<Scientist>*@
+@model PagedList.IPagedList<Scientist>
+@{
+    ViewBag.Title = "All Scientists";
+    Layout = "~/Views/Shared/_LayoutFront.cshtml";
+    var query = ViewBag.QueryData ?? "";
+}
 @section CSS{
     <!--DataTables [ OPTIONAL ]-->
     <link href="/Areas/Admin/Content/plugins/datatables/media/css/dataTables.bootstrap.css" rel="stylesheet">
     <link href="/Areas/Admin/Content/plugins/datatables/extensions/Responsive/css/responsive.dataTables.min.css" rel="stylesheet">
+    <style>
+
+        .autocomplete-suggestions {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid #999;
+            background: #FFF;
+            cursor: default;
+            overflow: auto;
+            -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+            -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+            box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64);
+        }
+
+        .autocomplete-suggestion {
+            padding: 2px 5px;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .autocomplete-no-suggestion {
+            padding: 2px 5px;
+        }
+
+        .autocomplete-selected {
+            background: #F0F0F0;
+        }
+
+        .autocomplete-suggestions strong {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .autocomplete-group {
+            padding: 2px 5px;
+            font-weight: bold;
+            font-size: 16px;
+            color: #000;
+            display: block;
+            border-bottom: 1px solid #000;
+        }
+
+        .regimen-header {
+            display: flex;
+            -o-justify-content: space-between;
+            -webkit-justify-content: space-between;
+            justify-content: space-between;
+            -ms-align-items: center;
+            -o-align-items: center;
+            -webkit-align-items: center;
+            align-items: center
+        }
+
+        .regimen-description {
+            padding-left: 30px;
+        }
+
+            .regimen-description h3 {
+                margin: 0;
+                padding: 0;
+                border: 0;
+                font-size: 15px;
+                font: inherit;
+                vertical-align: baseline;
+            }
+    </style>
 }
 
 <!--List-->
@@ -20,6 +91,17 @@
                         </a>
                     </div>*@
             </div>
+        </div>
+        <div class="row pad-ver">
+            <form action="/Scientist/SearchAll?country=@ViewBag.Country" method="get" class="col-md-6 col-md-offset-3 pad-hor">
+                <div class="input-group mar-btm">
+                    <input type="text" name="query" class="form-control input-lg" value="@query"  id="autocomplete-ajax" style="position: absolute; z-index: 2;" />
+                    <input type="text"class="form-control input-lg" id="autocomplete-ajax-x" disabled="disabled" style="color: #CCC; position: absolute; background: transparent; z-index: 1;" />
+                    <span class="input-group-btn">
+                        <button class="btn btn-primary btn-lg" type="submit">Search</button>
+                    </span>
+                </div>
+            </form>
         </div>
         <div class="table-responsive">
             <table class="table table-striped" id="tblData">
@@ -42,7 +124,8 @@
                             <td class="text-center">@(item.i + 1)</td>
 
                             <td class="text-center btn-link">
-                            <a href="#" onclick="openViewDetail('@(item.value.Id)');return false;"> @item.value.Name</a></td>
+                                <a href="#" onclick="openViewDetail('@(item.value.Id)');return false;"> @item.value.Name</a>
+                            </td>
                             @*<td class="text-center">@item.value.Scholar_id</td>*@
                             <td class="text-center">
                                 <img src="@item.value.Url_picture" style="height: 60px" />
@@ -57,45 +140,67 @@
                 </tbody>
             </table>
         </div>
+        <div class="text-center">
+            @Html.PagedListPager(Model, page => "/Scientist/SearchAll" + "?query=" + query + "&page=" + page + "&country=" + ViewBag.Country)
+        </div>
     </div>
 </div>
 
 @section Scripts {
     <!--DataTables [ OPTIONAL ]-->
-    <script src="/Areas/Admin/Content/plugins/datatables/media/js/jquery.dataTables.js"></script>
+    @*<script src="/Areas/Admin/Content/plugins/datatables/media/js/jquery.dataTables.js"></script>
     <script src="/Areas/Admin/Content/plugins/datatables/media/js/dataTables.bootstrap.js"></script>
-    <script src="/Areas/Admin/Content/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>
+    <script src="/Areas/Admin/Content/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js"></script>*@
+    <script src="~/Areas/Admin/Content/plugins/autocomplete/jquery.autocomplete.js"></script>
 
     <script>
         $(document).ready(function () {
-            $('#tblData').dataTable({
-                "language": {
-                    "paginate": {
-                        "previous": '<i class="demo-psi-arrow-left"></i>',
-                        "next": '<i class="demo-psi-arrow-right"></i>'
-                    },
-                    //"search": "Tìm kiếm:",
-                    //"emptyTable": "Dữ liệu trống",
-                    //"zeroRecords": "Không tìm thấy bản nghi nào",
-                    //"decimal": "",
-                    //"info": "Hiển thị _START_ đến _END_ của _TOTAL_ bản ghi",
-                    //"infoEmpty": "Hiển thị 0 đến 0 của 0 bản ghi",
-                    //"infoFiltered": "(filtered from _MAX_ total entries)",
-                    //"infoPostFix": "",
-                    //"thousands": ",",
-                    //"lengthMenu": "Hiển thị _MENU_ bản ghi",
-                    //"loadingRecords": "Đang tải...",
-                    //"processing": "Đang xử lý...",
-                    //"aria": {
-                    //    "sortAscending": ": Kích hoạt để sắp xếp cột tăng",
-                    //    "sortDescending": ": Kích hoạt để sắp xếp cột giảm"
-                    //}
+            $('#autocomplete-ajax').autocomplete({
+                serviceUrl: '/Scientist/GetJson',
+
+                lookupFilter: function (suggestion, originalQuery, queryLowerCase) {
+                    var re = new RegExp('\\b' + $.Autocomplete.utils.escapeRegExChars(queryLowerCase), 'gi');
+                    return re.test(suggestion.value);
                 },
-                columnDefs: [{
-                    targets: [0, 1, 2, 3, 4 , 5 ,6]
-                }],
-                order: [[1, 'asc']]
+                onSelect: function (suggestion) {
+                    $('#selction-ajax').html('You selected: ' + suggestion.value + ', ' + suggestion.data);
+                },
+                onHint: function (hint) {
+                    $('#autocomplete-ajax-x').val(hint);
+                },
+                onInvalidateSelection: function () {
+                    $('#selction-ajax').html('You selected: none');
+                }
             });
+
+            //$('#tblData').dataTable({
+            //    "language": {
+            //        "paginate": {
+            //            "previous": '<i class="demo-psi-arrow-left"></i>',
+            //            "next": '<i class="demo-psi-arrow-right"></i>'
+            //        },
+            //        //"search": "Tìm kiếm:",
+            //        //"emptyTable": "Dữ liệu trống",
+            //        //"zeroRecords": "Không tìm thấy bản nghi nào",
+            //        //"decimal": "",
+            //        //"info": "Hiển thị _START_ đến _END_ của _TOTAL_ bản ghi",
+            //        //"infoEmpty": "Hiển thị 0 đến 0 của 0 bản ghi",
+            //        //"infoFiltered": "(filtered from _MAX_ total entries)",
+            //        //"infoPostFix": "",
+            //        //"thousands": ",",
+            //        //"lengthMenu": "Hiển thị _MENU_ bản ghi",
+            //        //"loadingRecords": "Đang tải...",
+            //        //"processing": "Đang xử lý...",
+            //        //"aria": {
+            //        //    "sortAscending": ": Kích hoạt để sắp xếp cột tăng",
+            //        //    "sortDescending": ": Kích hoạt để sắp xếp cột giảm"
+            //        //}
+            //    },
+            //    columnDefs: [{
+            //        targets: [0, 1, 2, 3, 4, 5, 6]
+            //    }],
+            //    order: [[1, 'asc']]
+            //});
         });
 
         const baseUrl = "/scientist";
@@ -129,6 +234,7 @@
                     )
                 }
             });
-        }</script>
+        }
+    </script>
 }
 

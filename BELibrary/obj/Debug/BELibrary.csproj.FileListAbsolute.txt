@@ -183,11 +183,6 @@ E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_email_column.resources
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.maxlength_new_email_column.resources
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_fk_account_tbale.resources
-E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
-E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
-E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
-E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.dll
-E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.pdb
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_new_Type.resources
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_new_Type_new.resources
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_new_orgid.resources
@@ -195,4 +190,8 @@ E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.Add_New_Column_OrganizationId_And_FK.resources
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_emailConfirmed.resources
 E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.Migrations.add_new_Table_Paper.resources
-E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csprojAssemblyReference.cache
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.dll
+E:\QLCBKH\CODEFULL\ScientistVA_V2\ScientistVA_V1\ScientistVA\BELibrary\obj\Debug\BELibrary.pdb
