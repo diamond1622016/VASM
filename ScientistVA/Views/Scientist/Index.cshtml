@@ -93,7 +93,7 @@
             </div>
         </div>
         <div class="row pad-ver">
-            <form action="/Scientist/SearchAll?country=@ViewBag.Country" method="get" class="col-md-6 col-md-offset-3 pad-hor">
+            <form action="/Scientist/SearchAll?country=@ScientistVA.Controllers.ScientistController.CurCountry" method="get" class="col-md-6 col-md-offset-3 pad-hor">
                 <div class="input-group mar-btm">
                     <input type="text" name="query" class="form-control input-lg" value="@query"  id="autocomplete-ajax" style="position: absolute; z-index: 2;" />
                     <input type="text"class="form-control input-lg" id="autocomplete-ajax-x" disabled="disabled" style="color: #CCC; position: absolute; background: transparent; z-index: 1;" />
@@ -141,7 +141,7 @@
             </table>
         </div>
         <div class="text-center">
-            @Html.PagedListPager(Model, page => "/Scientist/SearchAll" + "?query=" + query + "&page=" + page + "&country=" + ViewBag.Country)
+            @Html.PagedListPager(Model, page => "/Scientist/SearchAll" + "?query=" + query + "&page=" + page + "&country=" + ScientistVA.Controllers.ScientistController.CurCountry)
         </div>
     </div>
 </div>

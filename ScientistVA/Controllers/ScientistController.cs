@@ -12,6 +12,7 @@ namespace ScientistVA.Controllers
 {
     public class ScientistController : Controller
     {
+        public static string CurCountry = "vn";
         private readonly string KeyElement = "Scientist";
         // GET: Scientist
         public ActionResult Index()
@@ -361,8 +362,13 @@ namespace ScientistVA.Controllers
         }
         public ActionResult SearchAll(string query, int? page, string country)
         {
-            if(country!=null)
+            if (country != null)
+            {
+                CurCountry = country;
                 ViewBag.Country = country;
+            }
+            else
+                country = CurCountry;
 
             if (country=="vn")
                 ViewBag.Feature = "Vietnamese Scientists";
